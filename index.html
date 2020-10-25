@@ -38,14 +38,16 @@
   <link rel="canonical" href="http://127.0.0.1:5500/" />
 
   <!-- <link rel="icon" type="image/x-icon" href="http://www.atelierwoodini.it/favicon.ico" > -->
-  <link rel="icon" type="image/x-icon" href="/ressources/img/timber.svg">
+  <link rel="icon" type="image/x-icon" href="/resources/img/timber.svg">
   <!-- <link rel="icon" sizes="192x192" href="http://www.atelierwoodini.it/res/start192.png"> -->
-  <link rel="icon" sizes="192x192" href="/ressources/img/timber.svg">
+  <link rel="icon" sizes="192x192" href="/resources/img/timber.svg">
   <!-- <link rel="apple-touch-icon" href="http://www.atelierwoodini.it/res/start144.png"> -->
-  <link rel="apple-touch-icon" href="/ressources/img/timber.svg">
-  <link rel="icon" href="/ressources/img/timber.svg" />
-  <link rel="stylesheet" href="/ressources/css/main.css" defer>
-  <link rel="stylesheet" href="/ressources/css/menu.css" defer>
+  <link rel="apple-touch-icon" href="/resources/img/timber.svg">
+  <link rel="icon" href="/resources/img/timber.svg" />
+
+  <link rel="stylesheet" href="app.css" defer>
+  <link rel="stylesheet" href="/resources/css/main.css" defer>
+  <link rel="stylesheet" href="/resources/css/menu.css" defer>
 
   <title>Timber - Accueil</title>
 
@@ -81,25 +83,18 @@
 
 <body>
   <div id="action-menu">
-    <div class="close">
+    <div class="burger-menu close">
       <div class="burger bar"></div>
       <div class="burger"></div>
       <div class="burger bar"></div>
-      <div class="burger"></div>
-      <div class="burger bar"></div>
-    </div>
-    <div class="open">
-      <div class="burger bar"></div>
-      <div class="burger"></div>
-      <div class="burger"></div>
       <div class="burger"></div>
       <div class="burger bar"></div>
     </div>
   </div>
   <nav id="menu">
-    <img class="logo" src="./ressources/tronconneuse-tronc.jpg" alt="logo">
+    <img class="logo" src="./resources/img/chene.png" alt="logo">
     <ul class="list">
-      <li><a class="active">ACCUEIL</a></li>
+      <li><a href="/index.html" class="active">ACCUEIL</a></li>
       <li><a href="/pages/qui-sommes-nous.html">QUI SOMMES NOUS</a></li>
       <li><a href="/pages/ce-que-nous-faisons.html">CE QUE NOUS FAISONS</a></li>
       <li><a href="/pages/contacts.html">CONTACTS</a></li>
@@ -122,10 +117,16 @@
       </span>
     </div>
   </nav>
-  <div id="main">
-    <div class="main-opacity"></div>
-    <img class="logo" src="/ressources/img/tronconneuse-tronc.jpg" alt="logo">
+  <section id="main">
+    <div style="background-image: url('/resources/img/tronc-empiller.jpg');" alt="des troncs empiller" class="cover active">
+      <div class="cover-opacity"></div>
+    </div>
+    <div style="background-image: url('/resources/img/tronc-non-empiller.jpg');" alt="des buches en pagaille" class="cover">
+      <div class="cover-opacity"></div>
+    </div>
+    <img class="logo" src="/resources/img/chene.png" alt="logo">
     <div class="separator"></div>
+    <a class="scroll" href="#bite">FAITES DÉFILER</a>
     <div class="slogan">
       <span class="brand">
         Antonio DOS SANTOS MARTINS
@@ -135,38 +136,13 @@
       <br>
       <span class="description-accent">nous sommes à votre écoute.</span>
     </div>
-  </div>
-  <div>
+  </section>
+  <div id="bite">
     <h1 style="color: black">BITE</h1>
   </div>
 
-  <style>
-    *,
-    ::after,
-    ::before {
-      font-family: Montserrat, sans-serif;
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none;
-      color: #f1f1f1;
-    }
-
-    body {
-      --jet: #343330ff;
-      --rifle-green: #45462aff;
-      --brown: #7e5920ff;
-      --fulvous: #dc851fff;
-      --yellow-orange: #ffa737ff;
-      --white: #f1f1f1;
-      --black-hover: #0000009f;
-      background: var(--white);
-    }
-
-  </style>
-
-
+  <script src="/resources/js/menu.js"></script>
+  <script src="/resources/js/main.js"></script>
 </body>
 
 </html>
