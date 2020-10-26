@@ -20,6 +20,7 @@ body {
   --fulvous: #dc851fff;
   --fulvous-transparent: rgba(220, 132, 31, 0.295);
   --yellow-orange: #ffa737ff;
+  --yellow-orange-transparent: rgba(255, 168, 55, 0.39);
   --white: #f1f1f1;
   --black-hover: #0000009f;
   background: var(--white);

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- TODO -->
+
+  <link rel="icon" href="/resources/img/timber.svg" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" media="all">
+
+  <link rel="stylesheet" href="/resources/css/app.css" defer>
+  <link rel="stylesheet" href="/resources/css/menu.css" defer>
+  <link rel="stylesheet" href="/resources/css/prefooter.css" defer>
+  <link rel="stylesheet" href="/resources/css/footer.css" defer>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+
+  <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.35.1/mapbox-gl.css" rel='stylesheet' />
+  <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.35.1/mapbox-gl.js"></script>
+
+  <title>Timber - Contacts</title>
+
+</head>
+
+<body>
+  <div id="action-menu">
+    <div class="burger-menu close">
+      <div class="burger bar"></div>
+      <div class="burger"></div>
+      <div class="burger bar"></div>
+      <div class="burger"></div>
+      <div class="burger bar"></div>
+    </div>
+  </div>
+  <nav id="menu">
+    <img class="logo" src="/resources/img/chene.png" alt="logo">
+    <ul class="list">
+      <li><a href="/index.html">ACCUEIL</a></li>
+      <li><a href="/pages/qui-sommes-nous.html">QUI SOMMES NOUS</a></li>
+      <li><a href="/pages/ce-que-nous-faisons.html">CE QUE NOUS FAISONS</a></li>
+      <li><a href="/pages/contacts.html" class="active">CONTACTS</a></li>
+    </ul>
+    <div class="separator"></div>
+    <div class="contact">
+      <span class="brand">
+        Antonio DOS SANTOS MARTINS
+      </span>
+      <br>
+      <span>
+        <a href="https://www.google.com/maps/dir//44.3959535,2.0565589/@44.3974805,2.0426889,13.96z/data=!4m2!4m1!3e0"
+          target="_blanc">
+          LD. Nieyreval
+          12200 Saint-Rémy
+        </a>
+      </span>
+      <br>
+      <span>
+        <a href="tel:+33674499435">06.74.49.94.35</a>
+      </span>
+    </div>
+  </nav>
+  <div id="map" style="width: 100VW; height: 500px;"></div>
+  <div class="parallax left"></div>
+  <div class="parallax right"></div>
+  <section id="prefooter">
+    <div class="container">
+      <h2>REGARDEZ ET TOUCHEZ LES MEUBLES WOODINÌ</h2>
+      <p>
+        L’Atelier Woodinì est toujours à la disposition de ses clients ou de ceux qui désirent le devenir, pour montrer son travail, ses créations (<strong>buffets, lits, tables,</strong> etc.).
+        Seuls le parfum et la consistance du bois peuvent parfaire une émotion, que nous ne pouvons qu'évoquer ici.
+        N'hésitez pas à nous appeler ou à nous écrire pour prendre rendez-vous ou pour recevoir de plus amples informations sur nos meubles.
+      </p>
+      <div class="contact">
+        <a href="tel:+33674499435">APPELEZ NOUS</a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div id="footer">
+      <div class="company">
+        <img src="/resources/img/chene.png" alt="logo chene" class="logo">
+        <div class="brand">ANTONIO <br>DOS SANTOS MARTINS</div>
+      </div>
+      <div class="address">
+        <a href="https://www.google.com/maps/dir//44.3959535,2.0565589/@44.3974805,2.0426889,13.96z/data=!4m2!4m1!3e0" target="_blank" rel="noopener noreferrer">LD. Nieiyreval<br>12200 Saint-Rémy</a>
+      </div>
+      <div class="contact">
+        <a href="tel:+33674499435">06.74.49.94.35</a>
+      </div>
+    </div>
+  </footer>
+  <script src="/resources/js/menu.js"></script>
+  <script src="/resources/js/map.js"></script>
+</body>
+
+</html>

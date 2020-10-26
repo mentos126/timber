@@ -63,13 +63,23 @@
 }
 
 .parallax {
-  right: 245px;
-  height: 331px;
-  top: 500px;
   position: absolute;
   z-index: 3;
-  width: 40px;
+  width: 10px;
+  min-height: 500px;
   overflow: hidden;
-  background: orange;
-  text-rendering: optimizeLegibility;
+  height: 100vh;
+  
+}
+
+.parallax.left{
+  background: linear-gradient(180deg, transparent 0, transparent 25%,  var(--yellow-orange-transparent) 25%, var(--yellow-orange-transparent) 75%,transparent 75%,transparent 100%) center 0 no-repeat fixed;
+  top: 150vh;
+  right: 265px;
+}
+
+.parallax.right{
+  background: linear-gradient(0deg, transparent 0, transparent 25%, var(--yellow-orange-transparent) 25%, var(--yellow-orange-transparent) 75%,transparent 75%,transparent 100%) center 0 no-repeat fixed;
+  top: 120vh;
+  right: 245px;
 }
