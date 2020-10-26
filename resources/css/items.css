@@ -1,0 +1,75 @@
+#items {
+  width: 100%;
+}
+
+.item {
+  position: relative;
+  width: 100%;
+  margin: 200px 0;
+  display: flex;
+  align-items: center;
+}
+
+.item .img {
+  width: 50%;
+  height: calc(100vh * 0.45);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item .description {
+  width: 50%;
+  padding: 0 150px;
+  text-align: center;
+  z-index: 2;
+}
+
+.item .description p {
+  text-align: justify;
+  margin: 25px 0;
+}
+
+.item .description a {
+  color: var(--yellow-orange);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.item .cover {
+  position: absolute;
+  top: 20%;
+  width: 75%;
+  height: 100%;
+  background: var(--fulvous-transparent);
+}
+
+.item .cover.left {
+  left: 0;
+}
+
+.item .cover.right {
+  right: 0;
+}
+
+/* ? who-are-we */
+#who-are-we .img {
+  background-image: url('/resources/img/tronconneuse-tronc.jpg');
+}
+
+/* ? what-we-wo */
+#what-we-do .img {
+  background-image: url('/resources/img/fireplace.jpg');
+}
+
+.parallax {
+  right: 245px;
+  height: 331px;
+  top: 500px;
+  position: absolute;
+  z-index: 3;
+  width: 40px;
+  overflow: hidden;
+  background: orange;
+  text-rendering: optimizeLegibility;
+}

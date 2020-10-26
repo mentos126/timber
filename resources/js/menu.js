@@ -22,3 +22,13 @@ actionMenu.addEventListener('click', function () {
     }, 600)
   }
 })
+
+window.addEventListener('scroll', function () {
+  const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
+
+  if (window.scrollY + 50 >= vh) {
+    actionMenu.classList.add('scroll-color')
+  } else {
+    actionMenu.classList.remove('scroll-color')
+  }
+})
