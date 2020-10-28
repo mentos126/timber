@@ -1,0 +1,134 @@
+#action-menu .burger.bar {
+  background: var(--jet);
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  z-index: 1;
+}
+
+.leaflet-marker-icon {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: none;
+  box-shadow: 0 0 0 0 var(--yellow-orange);
+  cursor: pointer;
+  -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  border-radius: 50% 50% 50% 50% / 24% 24% 76% 76% ;
+  -webkit-border-radius: 50% 50% 50% 50% / 24% 24% 76% 76% ;
+  -moz-border-radius: 50% 50% 50% 50% / 24% 24% 76% 76% ;
+  -ms-border-radius: 50% 50% 50% 50% / 24% 24% 76% 76% ;
+  -o-border-radius: 50% 50% 50% 50% / 24% 24% 76% 76% ;
+}
+
+.leaflet-control-attribution.leaflet-control {
+  display: none;
+}
+
+
+@-webkit-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
+  }
+}
+
+@-moz-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
+  }
+}
+
+@-ms-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
+  }
+}
+
+@keyframes pulse {
+  to {
+    box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
+  }
+}
+
+.separator {
+  width: 4px;
+  height: 550px;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  background: var(--yellow-orange);
+  z-index: 1;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.brand {
+  width: calc(50% - 25px);
+  padding-top: 100px;
+  text-align: right;
+}
+
+.brand h1 {
+  font-size: 2rem;
+}
+
+.brand h2 {
+  font-size: 2rem;
+  color: var(--fulvous);
+}
+
+.links {
+  position: relative;
+  width: 100%;
+  margin: 50px 0 125px;
+  display: flex;
+}
+
+.links img {
+  width: 50%;
+}
+
+.links .cover {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  width: 75%;
+  height: 100%;
+  z-index: 1;
+  background: var(--yellow-orange-transparent);
+}
+
+.links .contacts {
+  z-index: 2;
+  width: 50%;
+  margin: auto 25px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.links .contacts .address,
+.links .contacts .phone {
+  padding: 0 0 25px 0;
+}
+
+.links .contacts .address a,
+.links .contacts .phone a {
+  color: var(--jet);
+  text-decoration: underline;
+}
+
+.links .contacts .btn {
+  margin-top: 50px;
+  padding: 5px 40px;
+  border: solid 2px var(--yellow-orange);
+  font-weight: bold;
+  color: var(--jet);
+}

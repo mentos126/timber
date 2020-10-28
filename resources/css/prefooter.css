@@ -1,34 +1,35 @@
 #prefooter {
   width: 100%;
+  padding: 50px 0;
 }
 
-#prefooter .container {
+#prefooter .prefooter-container {
   width: 60%;
   margin: 0 auto;
 }
 
-#prefooter .container p {
+#prefooter .prefooter-container p {
   text-align: justify;
   padding: 25px 15px;
 }
 
-#prefooter .container .show-more {
+#prefooter .prefooter-container .show-more {
   text-align: center;
   padding-top: 25px;
 }
 
-#prefooter .container .show-more a {
+#prefooter .prefooter-container .show-more a {
   text-decoration: underline;
   color: var(--yellow-orange);
   font-weight: bold;
 }
 
-#prefooter .container .contact {
+#prefooter .prefooter-container .contact {
   text-align: center;
   margin-top: 25px;
 }
 
-#prefooter .container .contact a {
+#prefooter .prefooter-container .contact a {
   color: var(--jet);
   font-weight: bold;
   border: solid 2px var(--yellow-orange);
