@@ -14,16 +14,7 @@
   z-index: 101;
   position: absolute;
   top: 25%;
-  left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-}
-
-.loader {
-  position: relative;
+  left: calc(50% - 50px);
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -37,7 +28,7 @@
   -webkit-animation: loader3Animation 2s linear infinite;
 }
 
-.loader:before {
+#loading .loader:before {
   position: absolute;
   top: 20px;
   left: 20px;
@@ -52,7 +43,7 @@
   -webkit-animation: loader3AnimationBefore 1.5s linear infinite;
 }
 
-.loader:after {
+#loading .loader:after {
   position: absolute;
   top: 5px;
   left: 5px;
