@@ -116,11 +116,17 @@
 }
 
 .links .contacts .address,
+.links .contacts .mail,
 .links .contacts .phone {
   padding: 0 0 25px 0;
 }
 
+.links .contacts .mail {
+  margin-top: 25px;
+}
+
 .links .contacts .address a,
+.links .contacts .mail a,
 .links .contacts .phone a {
   color: var(--jet);
   text-decoration: underline;
@@ -164,7 +170,7 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 470px) {
   .separator {
     height: 450px;
   }
@@ -175,35 +181,66 @@
   }
 }
 
-@media (max-width: 710px) {
-  .links .contacts{
+@media (max-width: 400px) {
+  .separator {
+    height: 400px;
+  }
+
+  .brand {
+    padding-top: 60px;
+    width: 80%;
+    margin: 0 auto;
+    /* background: #000; */
+  }
+
+  .brand h1,
+  .brand h2 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 830px) {
+  .links .contacts {
     font-size: 1rem;
   }
 }
 
-@media (max-width: 600px) {
-  .links .contacts .btn{
-    font-size: .6rem;
-    padding: 5px 20px;
+@media (max-width: 780px) {
+  .links .contacts {
+    font-size: .9rem;
   }
 }
 
-@media (max-width: 350px) {
-  .links .contacts .btn{
-    font-size: .5rem;
-    padding: 5px 10px;
-  }
-}
-
-
-@media (max-width: 500px) {
+@media (max-width: 710px) {
   .links .contacts{
     font-size: .8rem;
   }
 }
 
+@media (max-width: 650px) {
+  .links {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .links img {
+    width: 75%;
+  }
+
+  .links .contacts {
+    width: 100%;
+    margin: auto;
+    padding-top: 25px;
+  }
+
+  .links .cover {
+    left: 25%;
+    height: 50%;
+  }
+}
+
 @media (max-width: 300px) {
-  body {
-    font-size: 8px !important;
+  .links .contacts {
+    font-size: .7rem;
   }
 }

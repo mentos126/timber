@@ -48,7 +48,7 @@
   width: 100%;
   top: 0;
   left: 0;
-  background: var(--black-hover);
+  background: var(--menu-hover);
   opacity: 0;
   z-index: 0;
   transition: all 0.5s ease-in-out .2s;
@@ -147,3 +147,27 @@
 #menu .contact a:hover {
   color: var(--yellow-orange)
 }
+
+@media (max-width: 550px) {
+  #menu .list {
+    text-align: center;
+    width: 100%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+  #menu .list a {
+    font-size: 1.2rem;
+  }
+
+  #menu .contact,
+  #menu .separator {
+    display: none !important;
+  }
+
+}
+
+

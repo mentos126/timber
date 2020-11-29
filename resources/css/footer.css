@@ -58,3 +58,16 @@ footer {
   color: var(--white);
   font-size: .8rem;
 }
+
+#footer .mail a {
+  padding: 15px;
+  color: var(--white);
+  font-size: .8rem;
+}
+
+@media (max-width: 300px) {
+  #footer .company .brand {
+    font-size: .8rem;
+    padding-right: 35px;
+  }
+}
