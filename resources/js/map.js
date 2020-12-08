@@ -2,8 +2,8 @@ const map = L.map('map')
   .setView([44.396138, 2.086415], 12);
 
 const myIcon = L.icon({
-  iconUrl: '/resources/img/marker-with-tree.png',
-  shadowUrl: '/resources/img/marker-shadow.png',
+  iconUrl: '/timber/resources/img/marker-with-tree.png',
+  shadowUrl: '/timber/resources/img/marker-shadow.png',
   iconSize: [25, 41],
   iconAnchor: [12, 41],
   popupAnchor: [1, -34],
