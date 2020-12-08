@@ -2,7 +2,7 @@ const map = L.map('map')
             .setView([44.396138, 2.086415], 12);
 
 const myIcon = L.icon({
-  iconUrl: '/resources/img/marker-with-tree-without-background-min.png',
+  iconUrl: '/resources/img/marker-with-tree.png',
   shadowUrl: '/resources/img/marker-shadow.png',
   iconSize: [25, 41],
   iconAnchor: [12, 41],

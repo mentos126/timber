@@ -13,6 +13,8 @@
 .item .img {
   width: 50%;
   height: calc(100vh * 0.45);
+  object-fit: cover;
+  object-position: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,16 +52,6 @@
 
 .item .cover.right {
   right: 0;
-}
-
-/* ? who-are-we */
-#who-are-we .img {
-  background-image: url('/resources/img/tronconneuse-tronc.jpg');
-}
-
-/* ? what-we-wo */
-#what-we-do .img {
-  background-image: url('/resources/img/fireplace.jpg');
 }
 
 .parallax {

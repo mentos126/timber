@@ -8,7 +8,7 @@
 
   <!-- TODO -->
 
-  <link rel="icon" href="/resources/img/timber-min.png" defer/>
+  <link rel="icon" href="/resources/img/icon-timber.png" defer/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" media="all">
 
   <link rel="stylesheet" href="/resources/css/app.css" defer>
@@ -50,7 +50,12 @@
       </div>
     </div>
     <nav id="menu">
-      <img class="logo" src="/resources/img/chene.png" alt="logo">
+      <img
+        srcset="/resources/img/chene-small.png 400w, /resources/img/chene-medium.png 700w, /resources/img/chene-big.png 1200w"
+        sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
+        src="/resources/img/chene-big.png"
+        class="logo"
+        alt="logo">
       <ul class="list">
         <li><a href="/index.html" class="need-loader">ACCUEIL</a></li>
         <li><a href="/pages/qui-sommes-nous.html" class="need-loader">QUI SOMMES NOUS</a></li>
@@ -87,7 +92,13 @@
       <h2>Les contacts</h2>
     </section>
     <section class="links">
-      <img src="/resources/img/tronconneuse-tronc.jpg" alt="tronçonneuse">
+      <img
+          class="img"
+          srcset="/resources/img/tronconneuse-tronc-small.jpg 400w, /resources/img/tronconneuse-tronc-medium.jpg 700w, /resources/img/tronconneuse-tronc-big.jpg 1200w"
+          sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
+          src="/resources/img/tronconneuse-tronc-big.jpg"
+          alt="tronçonneuse"
+          >
       <div class="contacts">
         <div class="address">
           <strong>Adresse:</strong>
@@ -114,7 +125,12 @@
   <footer>
     <div id="footer">
       <div class="company">
-        <img src="/resources/img/chene.png" alt="logo chene" class="logo">
+        <img
+          srcset="/resources/img/chene-small.png 400w, /resources/img/chene-medium.png 700w, /resources/img/chene-big.png 1200w"
+          sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
+          src="/resources/img/chene-big.png"
+          alt="logo chene"
+          class="logo">
         <div class="brand">ANTONIO <br>DOS SANTOS MARTINS</div>
       </div>
       <div class="address">

@@ -1,8 +1,6 @@
 const covers = document.querySelectorAll('#main .cover')
 const coversSize = covers.length
 
-console.log(window)
-
 if (( window.innerWidth > 800 ) && ( window.innerHeight > 600 )) {
   window.setInterval(function () {
     const time = new Date().getTime()

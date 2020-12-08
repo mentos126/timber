@@ -38,13 +38,13 @@
   <link rel="canonical" href="http://127.0.0.1:5500/" />
 
   <!-- <link rel="icon" type="image/x-icon" href="http://www.atelierwoodini.it/favicon.ico" > -->
-  <link rel="icon" type="image/x-icon" href="/resources/img/timber-min.png">
+  <link rel="icon" type="image/x-icon" href="/resources/img/icon-timber.png">
   <!-- <link rel="icon" sizes="192x192" href="http://www.atelierwoodini.it/res/start192.png"> -->
-  <link rel="icon" sizes="192x192" href="/resources/img/timber-min.png">
+  <link rel="icon" sizes="192x192" href="/resources/img/icon-timber.png">
   <!-- <link rel="apple-touch-icon" href="http://www.atelierwoodini.it/res/start144.png"> -->
-  <link rel="apple-touch-icon" href="/resources/img/timber-min.png">
+  <link rel="apple-touch-icon" href="/resources/img/icon-timber.png">
   
-  <link rel="icon" href="/resources/img/timber-min.png"/>
+  <link rel="icon" href="/resources/img/icon-timber.png"/>
 
 
   <link rel="stylesheet" href="/resources/css/app.css" defer>
@@ -102,7 +102,12 @@
       </div>
     </div>
     <nav id="menu">
-      <img class="logo" src="./resources/img/chene.png" alt="logo">
+      <img
+        srcset="/resources/img/chene-small.png 400w, /resources/img/chene-medium.png 700w, /resources/img/chene-big.png 1200w"
+        sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
+        src="/resources/img/chene-big.png"
+        class="logo"
+        alt="logo">
       <ul class="list">
         <li><a href="/index.html" class="active need-loader">ACCUEIL</a></li>
         <li><a href="/pages/qui-sommes-nous.html" class="need-loader">QUI SOMMES NOUS</a></li>
@@ -133,17 +138,33 @@
       </div>
     </nav>
     <section id="main">
-      <div style="background-image: url('/resources/img/tronc-empiller.jpg');" alt="des troncs empiller"
-        class="cover active">
-        <div class="cover-opacity"></div>
+      <div class="cover-wrapper">
+        <div class="cover active">
+          <img
+            srcset="/resources/img/tronc-empiller-small.jpg 400w, /resources/img/tronc-empiller-medium.jpg 700w, /resources/img/tronc-empiller-big.jpg 1200w"
+            sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
+            src="/resources/img/tronc-empiller-big.jpg"
+            alt="des troncs empiller">
+          <div class="cover-opacity"></div>
+        </div>
+        <div class="cover">
+          <img
+            srcset="/resources/img/tronc-non-empiller-small.jpg 400w, /resources/img/tronc-non-empiller-medium.jpg 700w, /resources/img/tronc-non-empiller-big.jpg 1200w"
+            sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
+            src="/resources/img/tronc-non-empiller-big.jpg"
+            alt="des buches en pagaille">
+          <div class="cover-opacity"></div>
+        </div>
       </div>
-      <div style="background-image: url('/resources/img/tronc-non-empiller.jpg');" alt="des buches en pagaille"
-        class="cover">
-        <div class="cover-opacity"></div>
-      </div>
-      <img class="logo" src="/resources/img/chene.png" alt="logo">
+      <img
+        srcset="/resources/img/chene-small.png 400w, /resources/img/chene-medium.png 700w, /resources/img/chene-big.png 1200w"
+        sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
+        src="/resources/img/chene-big.png"
+        class="logo"
+        alt="logo">
       <div class="separator"></div>
       <a class="scroll" href="#items">FAITES DÉFILER</a>
+      <!-- TODO: perfomance #slogan -->
       <h1 class="slogan">
         <span class="brand">
           Antonio DOS SANTOS MARTINS
@@ -157,7 +178,13 @@
     </section>
     <div id="items">
       <section id="who-are-we" class="item">
-        <div class="img"></div>
+        <img
+          class="img"
+          srcset="/resources/img/tronconneuse-tronc-small.jpg 400w, /resources/img/tronconneuse-tronc-medium.jpg 700w, /resources/img/tronconneuse-tronc-big.jpg 1200w"
+          sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
+          src="/resources/img/tronconneuse-tronc-big.jpg"
+          alt="tronçonneuse"
+          >
         <div class="description">
           <h2>QUI EST ANTONIO DOS SANTOS MARTINS</h2>
           <p>
@@ -180,7 +207,13 @@
           </p>
           <a href="/pages/ce-que-nous-faisons.html">DÉCOUVREZ DAVANTAGE</a>
         </div>
-        <div class="img"></div>
+        <img
+          class="img"
+          srcset="/resources/img/fireplace-small.jpg 400w, /resources/img/fireplace-medium.jpg 700w, /resources/img/fireplace-big.jpg 1200w"
+          sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
+          src="/resources/img/fireplace-big.jpg"
+          alt="cheminée"
+          >
         <div class="cover right"></div>
       </section>
     </div>
@@ -208,7 +241,12 @@
   <footer>
     <div id="footer">
       <div class="company">
-        <img src="/resources/img/chene.png" alt="logo chene" class="logo">
+        <img
+          srcset="/resources/img/chene-small.png 400w, /resources/img/chene-medium.png 700w, /resources/img/chene-big.png 1200w"
+          sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
+          src="/resources/img/chene-big.png"
+          class="logo"
+          alt="logo">
         <div class="brand">ANTONIO <br>DOS SANTOS MARTINS</div>
       </div>
       <div class="address">
