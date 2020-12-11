@@ -91,7 +91,7 @@
 }
 
 .my-description .main-description {
-  width: 750px;
+  max-width: 750px;
   margin: 0 auto;
 }
 
@@ -102,4 +102,5 @@
 .my-description .main-description p {
   font-size: 1rem;
   padding: 10px;
+  text-align: justify;
 }
