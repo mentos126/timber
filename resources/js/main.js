@@ -7,20 +7,22 @@ const resizeHandler = () => {
   main.classList.remove('min')
   slogan.style.display = 'block'
   sloganAlt.style.display = 'none'
-
-  if (slogan.clientHeight > 500) {
+  
+  // window.setTimeout(() => {
+  if (slogan.clientHeight > 400) {
     main.classList.add('min')
   }
 
-  if ((main.clientHeight / 2) - 20 <= slogan.clientHeight) {
+  if ((main.clientHeight / 2) - 70 <= slogan.clientHeight) {
     main.classList.add('min')
-
+    
     // check after minify display
-    if ((main.clientHeight / 2) - 20 <= slogan.clientHeight) {
+    if ((main.clientHeight / 2) - 70 <= slogan.clientHeight) {
       slogan.style.display = 'none'
       sloganAlt.style.display = 'flex'
     }
   }
+  // }, .1)
 }
 
 resizeHandler()

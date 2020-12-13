@@ -35,3 +35,16 @@
   border: solid 2px var(--yellow-orange);
   padding: 5px 40px;
 }
+
+@media (max-width: 360px) {
+  #prefooter .prefooter-container .contact a {
+    font-size: .9rem;
+    padding: 5px 30px;
+  }
+}
+
+@media (max-width: 360px) {
+  #prefooter .prefooter-container .contact a {
+    padding: 5px 20px;
+  }
+}
