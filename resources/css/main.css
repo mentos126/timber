@@ -36,15 +36,17 @@
 
 #items .slogan-alt {
   width: 100%;
+  margin-top: 45px;
   padding: 15px;
+  display: flex;
   justify-content: center;
   align-items: center;
   display: none;
 }
 
 #items .slogan {
-  max-width: 500px;
-  width: 100%;
+  display: flex;
+  width: 80%;
   color: var(--jet);
 }
 
@@ -52,12 +54,19 @@
 #items .slogan {
   font-weight: bold;
   font-size: 2rem;
-  /* text-shadow: 1px 1px 2px black, 0 0 2em black; */
 }
 
 #main .slogan .brand,
 #items .slogan-alt .brand {
   font-size: 1.5rem;
+}
+
+#items .slogan-alt .brand {
+  width: calc(100% / 3);
+}
+
+#items .slogan-alt .description-wrapper {
+  width: calc(100% * 2 / 3);
 }
 
 #main .slogan .description,
@@ -109,3 +118,34 @@
   }
 }
 
+@media (max-width: 1600px) {
+  #items .slogan {
+    flex-direction: column;
+  }
+
+  #items .slogan-alt .brand {
+    width: 100%;
+  }
+
+  #items .slogan-alt .description-wrapper {
+    margin-left: auto;
+    min-width: 750px;
+  }
+}
+
+@media (max-width: 960px) {
+  #items .slogan-alt .description-wrapper {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 750px) {
+  #items .slogan-alt .brand {
+    font-size: 1rem;
+  }
+
+  #items .slogan-alt .description,
+  #items .slogan-alt .description-accent  {
+    font-size: 1.2rem;
+  }
+}
