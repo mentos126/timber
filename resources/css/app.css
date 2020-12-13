@@ -23,6 +23,6 @@ body {
   --yellow-orange-transparent: rgba(255, 168, 55, 0.39);
   --white: #f1f1f1;
   --black-hover: #0000009f;
-  --menu-hover: #000000d7;
+  --menu-hover: #000000e1;
   background: var(--white);
 }

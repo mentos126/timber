@@ -157,7 +157,7 @@
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
-}
+  }
 
   #menu .list a {
     font-size: 1.2rem;
@@ -170,4 +170,26 @@
 
 }
 
-/* TODO horizontal screen */
+@media (max-height: 380px) {
+  #menu .logo {
+    display: none;
+  }
+
+  #menu .contact,
+  #menu .separator {
+    display: none !important;
+  }
+
+  #menu .list {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+}
