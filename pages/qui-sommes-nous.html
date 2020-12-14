@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="/resources/css/loading.css" defer>
   <link rel="stylesheet" href="/resources/css/menu.css" defer>
   <link rel="stylesheet" href="/resources/css/covers.css" defer>
+  <link rel="stylesheet" href="/resources/css/parallax.css" defer>
   <link rel="stylesheet" href="/resources/css/prefooter.css" defer>
   <link rel="stylesheet" href="/resources/css/footer.css" defer>
   <link rel="stylesheet" href="/resources/css/who-am-i.css" defer>
@@ -71,6 +72,8 @@
         </span>
       </div>
     </nav>
+    <div class="parallax left"></div>
+    <div class="parallax right"></div>
     <section id="main" class="half">
       <div class="cover-wrapper">
         <div class="cover active">
@@ -107,7 +110,40 @@
           minima dolore? Consequuntur ipsa eius doloribus modi animi asperiores natus est in eos.
         </p>
       </div>
-      <!-- TODO items -->
+      <div class="me">
+        <div class="left">
+          <div class="cover"></div>
+          <img
+            srcset="/resources/img/découpe-bois-small.jpg 400w, /resources/img/découpe-bois-medium.jpg 700w, /resources/img/découpe-bois-big.jpg 1200w"
+            sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px" src="/resources/img/découpe-bois-big.jpg"
+            alt="tronçonage du bois">
+          <div class="description">
+            <h3>ANTONIO DOS SANTOS MARTINS</h3>
+            <p>
+              55 ans. <br>
+              Fondateur et âme de l'entreprise.
+            </p>
+          </div>
+        </div>
+        <div class="right">
+          <div class="cover"></div>
+          <img
+            srcset="/resources/img/tronconneuse-small.jpg 400w, /resources/img/tronconneuse-medium.jpg 700w, /resources/img/tronconneuse-big.jpg 1200w"
+            sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px" src="/resources/img/tronconneuse-big.jpg"
+            alt="tronçonneuse">
+          <div class="description">
+            <h3>L'AMOUR DU BOIS</h3>
+            <p>
+              L'histoire et les traditions. La nature autour de l'entreprise est, depuis toujours, une source
+              d'inspiration et d'amour pour le bois.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="last-item">
+        <img src="/resources/img/tronconneuse-tronc-big.jpg" alt="tronçonneuse">
+        <div class="cover"></div>
+      </div>
     </section>
     <section id="prefooter">
       <div class="prefooter-container">

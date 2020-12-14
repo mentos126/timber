@@ -9,6 +9,18 @@
   z-index: 1;
 }
 
+@media (max-height: 450px) {
+  #map {
+    height: 300px;
+  }
+}
+
+@media (max-height: 350px) {
+  #map {
+    height: 200px;
+  }
+}
+
 .leaflet-marker-icon {
   position: relative;
   width: 100px;
@@ -95,6 +107,18 @@
     height: 525px;
   }
 
+  @media (max-height: 450px) {
+    .separator {
+      height: 425px;
+    }
+  }
+  
+  @media (max-height: 350px) {
+    .separator {
+      height: 325px;
+    }
+  }
+
   .brand h1,
   .brand h2 {
     font-size: 1.5rem;
@@ -110,6 +134,18 @@
     height: 475px;
   }
 
+  @media (max-height: 450px) {
+    .separator {
+      height: 325px;
+    }
+  }
+  
+  @media (max-height: 350px) {
+    .separator {
+      height: 225px;
+    }
+  }
+
   .brand h1,
   .brand h2 {
     font-size: 1rem;
@@ -121,6 +157,18 @@
     height: 450px;
   }
 
+  @media (max-height: 450px) {
+    .separator {
+      height: 350px;
+    }
+  }
+  
+  @media (max-height: 350px) {
+    .separator {
+      height: 250px;
+    }
+  }
+
   .brand h1,
   .brand h2 {
     font-size: .8rem;
@@ -130,6 +178,18 @@
 @media (max-width: 400px) {
   .separator {
     height: 400px;
+  }
+
+  @media (max-height: 450px) {
+    .separator {
+      height: 300px;
+    }
+  }
+  
+  @media (max-height: 350px) {
+    .separator {
+      height: 200px;
+    }
   }
 
   .brand {

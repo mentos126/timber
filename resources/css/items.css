@@ -54,28 +54,6 @@
   right: 0;
 }
 
-.parallax {
-  position: absolute;
-  z-index: 3;
-  width: 10px;
-  min-height: 500px;
-  overflow: hidden;
-  max-height: 100vh;
-  
-}
-
-.parallax.left{
-  background: linear-gradient(180deg, transparent 0, transparent 25%,  var(--yellow-orange-transparent) 25%, var(--yellow-orange-transparent) 75%,transparent 75%,transparent 100%) center 0 no-repeat fixed;
-  top: 150vh;
-  right: 265px;
-}
-
-.parallax.right{
-  background: linear-gradient(0deg, transparent 0, transparent 25%, var(--yellow-orange-transparent) 25%, var(--yellow-orange-transparent) 75%,transparent 75%,transparent 100%) center 0 no-repeat fixed;
-  top: 120vh;
-  right: 245px;
-}
-
 @media (max-width: 1200px) {
   #items .item {
     flex-direction: column;
