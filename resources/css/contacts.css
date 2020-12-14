@@ -32,11 +32,11 @@
   -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
   -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
   animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-  border-radius: 50% 50% 50% 50% / 24% 24% 76% 76% ;
-  -webkit-border-radius: 50% 50% 50% 50% / 24% 24% 76% 76% ;
-  -moz-border-radius: 50% 50% 50% 50% / 24% 24% 76% 76% ;
-  -ms-border-radius: 50% 50% 50% 50% / 24% 24% 76% 76% ;
-  -o-border-radius: 50% 50% 50% 50% / 24% 24% 76% 76% ;
+  border-radius: 50% 50% 50% 50% / 24% 24% 76% 76%;
+  -webkit-border-radius: 50% 50% 50% 50% / 24% 24% 76% 76%;
+  -moz-border-radius: 50% 50% 50% 50% / 24% 24% 76% 76%;
+  -ms-border-radius: 50% 50% 50% 50% / 24% 24% 76% 76%;
+  -o-border-radius: 50% 50% 50% 50% / 24% 24% 76% 76%;
 }
 
 .leaflet-control-attribution.leaflet-control {
@@ -112,7 +112,7 @@
       height: 425px;
     }
   }
-  
+
   @media (max-height: 350px) {
     .separator {
       height: 325px;
@@ -139,7 +139,7 @@
       height: 325px;
     }
   }
-  
+
   @media (max-height: 350px) {
     .separator {
       height: 225px;
@@ -162,7 +162,7 @@
       height: 350px;
     }
   }
-  
+
   @media (max-height: 350px) {
     .separator {
       height: 250px;
@@ -185,7 +185,7 @@
       height: 300px;
     }
   }
-  
+
   @media (max-height: 350px) {
     .separator {
       height: 200px;
@@ -277,7 +277,7 @@
 }
 
 @media (max-width: 710px) {
-  .links .contacts{
+  .links .contacts {
     font-size: .8rem;
   }
 }

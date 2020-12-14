@@ -70,12 +70,12 @@
 }
 
 #main .slogan .description,
-#items .slogan-alt .description  {
+#items .slogan-alt .description {
   font-size: 2rem;
 }
 
 #main .slogan .description-accent,
-#items .slogan-alt .description-accent  {
+#items .slogan-alt .description-accent {
   color: var(--yellow-orange);
 }
 
@@ -111,7 +111,7 @@
   #main .slogan .brand {
     font-size: 1rem;
   }
-  
+
   #main .slogan .description,
   #main .slogan .description-accent {
     font-size: 1.2rem;
@@ -145,7 +145,7 @@
   }
 
   #items .slogan-alt .description,
-  #items .slogan-alt .description-accent  {
+  #items .slogan-alt .description-accent {
     font-size: 1.2rem;
   }
 }

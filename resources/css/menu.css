@@ -27,11 +27,11 @@
   border-radius: 5px;
 }
 
-#action-menu .scroll-color .burger.bar{
+#action-menu .scroll-color .burger.bar {
   background: var(--jet);
 }
 
-#action-menu .open .burger.bar{
+#action-menu .open .burger.bar {
   background: var(--white);
 }
 
@@ -191,5 +191,5 @@
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
-}
+  }
 }

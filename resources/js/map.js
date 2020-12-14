@@ -1,5 +1,5 @@
 const map = L.map('map')
-            .setView([44.396138, 2.086415], 12);
+  .setView([44.396138, 2.086415], 12);
 
 const myIcon = L.icon({
   iconUrl: '/resources/img/marker-with-tree.png',
@@ -8,7 +8,7 @@ const myIcon = L.icon({
   iconAnchor: [12, 41],
   popupAnchor: [1, -34],
   shadowSize: [41, 41]
-  });
+});
 
 const popup = `
 <a
@@ -21,7 +21,9 @@ const popup = `
 </a>
 `
 
-L.marker([44.396138, 2.056415], {icon: myIcon})
+L.marker([44.396138, 2.056415], {
+    icon: myIcon
+  })
   .addTo(map)
   .bindPopup(popup)
   .openPopup();
