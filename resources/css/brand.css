@@ -43,7 +43,7 @@
   }
 }
 
-@media (max-width: 650px) {
+/* @media (max-width: 650px) {
   .brand {
     padding-top: 50px;
   }
@@ -67,9 +67,9 @@
   .brand h2 {
     font-size: .8rem;
   }
-}
+} */
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .separator {
     height: 300px;
   }
@@ -82,6 +82,6 @@
 
   .brand h1,
   .brand h2 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 }

@@ -36,6 +36,16 @@
   padding: 5px 40px;
 }
 
+@media (max-width: 900px) {
+  #prefooter h2 {
+    font-size: 1rem;
+  }
+
+  #prefooter p {
+    font-size: .9rem;
+  }
+}
+
 @media (max-width: 360px) {
   #prefooter .prefooter-container .contact a {
     font-size: .9rem;
