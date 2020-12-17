@@ -1,0 +1,165 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [{
+      "@type": "Organization",
+      "@id": "https://www.example.com/#/schema/organization/1",
+      "name": "Example Orgnaization",
+      "url": "https://www.example.com/",
+      "sameAs": [
+        "https://www.facebook.com/example/",
+        "https://www.instagram.com/example/",
+        "https://www.linkedin.com/example/",
+        "https://www.youtube.com/example/",
+        "https://www.pinterest.com/example/",
+        "https://en.wikipedia.org/wikiexample/",
+        "https://twitter.com/example/"
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.example.com/#/schema/image/abc123",
+        "url": "https://www.example.com/images/example.jpg",
+        "width": 120,
+        "height": 120,
+        "caption": "Example Image"
+      },
+      "image": {
+        "@id": "https://www.example.com/#/schema/image/abc123"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.example.com/#/schema/website/1",
+      "url": "https://www.example.com/",
+      "name": "Example Website",
+      "publisher": {
+        "@id": "https://www.example.com/#/schema/organization/1"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.example.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": [
+        "WebPage",
+        "ItemPage"
+      ],
+      "@id": "https://www.example.com/products/example-page/",
+      "url": "https://www.example.com/products/example-page/",
+      "inLanguage": "en-US",
+      "breadcrumb": {
+        "@id": "https://www.example.com/products/example-page/#/schema/breadcrumb/abc123"
+      },
+      "name": "Example Product Page",
+      "isPartOf": {
+        "@id": "https://www.example.com/#/schema/website/1"
+      },
+      "datePublished": "2015-09-14T08:13:22+00:00",
+      "dateModified": "2019-03-28T12:46:37+00:00",
+      "description": "Example description"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.example.com/products/example-page/#/schema/breadcrumb/abc123",
+      "itemListElement": [{
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "WebPage",
+            "@id": "https://www.example.com/",
+            "url": "https://www.example.com/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "WebPage",
+            "@id": "https://www.example.com/products/",
+            "url": "https://www.example.com/products/",
+            "name": "Example page"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "WebPage",
+            "@id": "https://www.example.com/products/example-page/"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://www.example.com/#/schema/product/abc123",
+      "name": "Vneck Tshirt",
+      "image": {
+        "@id": "https://www.example.com/#/schema/image/abc123"
+      },
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.",
+      "sku": 83,
+      "offers": [{
+        "@type": "Offer",
+        "price": "18.00",
+        "priceValidUntil": "2020-12-31",
+        "priceSpecification": {
+          "price": "18.00",
+          "priceCurrency": "EUR",
+          "valueAddedTaxIncluded": "false"
+        },
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.example.com/products/example-page/",
+        "seller": {
+          "@id": "https://www.example.com/#/schema/organization/1"
+        }
+      }],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.50",
+        "reviewCount": 2
+      },
+      "review": [{
+          "@id": "https://www.example.com/#/schema/review/abc123",
+          "datePublished": "2019-04-09T09:10:12+00:00",
+          "description": "What a nice turtle shirt.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Tim"
+          }
+        },
+        {
+          "@id": "https://www.example.com/#/schema/review/def456",
+          "datePublished": "2019-04-09T09:10:29+00:00",
+          "description": "Awesome shirt",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Patrice"
+          }
+        }
+      ],
+      "brand": {
+        "@type": "Organization",
+        "name": "Turtle"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://www.example.com/products/example-page/"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Turtle"
+      }
+    }
+  ]
+}
