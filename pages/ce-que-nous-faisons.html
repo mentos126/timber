@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" amp>
 
 <head>
   <meta charset="UTF-8">
@@ -170,18 +170,29 @@
       <div class="cover-wrapper">
         <div class="cover active">
           <!-- TODO change imgs ? -->
-          <img
+          <amp-img class="img" alt="des troncs empiller" width="140" height="140"
             srcset="/resources/img/tronc-empiller-small.jpg 400w, /resources/img/tronc-empiller-medium.jpg 700w, /resources/img/tronc-empiller-big.jpg 1200w"
-            sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
-            src="/resources/img/tronc-empiller-big.jpg" alt="des troncs empiller">
+            src="/resources/img/tronc-empiller-big.jpg" layout="responsive">
+            <noscript>
+              <img alt="des troncs empiller" width="150" height="150"
+                srcset="/resources/img/tronc-empiller-small.jpg 400w, /resources/img/tronc-empiller-medium.jpg 700w, /resources/img/tronc-empiller-big.jpg 1200w"
+                sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
+                src="/resources/img/tronc-empiller-big.jpg" />
+            </noscript>
+          </amp-img>
           <div class="cover-opacity"></div>
         </div>
         <div class="cover">
-          <!-- TODO img -->
-          <img
+          <amp-img class="img" alt="des buches en pagaille" width="140" height="140"
             srcset="/resources/img/tronc-non-empiller-small.jpg 400w, /resources/img/tronc-non-empiller-medium.jpg 700w, /resources/img/tronc-non-empiller-big.jpg 1200w"
-            sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
-            src="/resources/img/tronc-non-empiller-big.jpg" alt="des buches en pagaille">
+            src="/resources/img/tronc-non-empiller-big.jpg" layout="responsive">
+            <noscript>
+              <img alt="des buches en pagaille" width="150" height="150"
+                srcset="/resources/img/tronc-non-empiller-small.jpg 400w, /resources/img/tronc-non-empiller-medium.jpg 700w, /resources/img/tronc-non-empiller-big.jpg 1200w"
+                sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
+                src="/resources/img/tronc-non-empiller-big.jpg" />
+            </noscript>
+          </amp-img>
           <div class="cover-opacity"></div>
         </div>
       </div>
@@ -209,11 +220,16 @@
       <div class="items-wrapper">
         <div class="items">
           <div class="item">
-            <!-- TODO img -->
-            <img
+            <amp-img class="img" alt="piquet" width="140" height="140"
               srcset="/resources/img/piquet-small.jpg 400w, /resources/img/piquet-medium.jpg 700w, /resources/img/piquet-big.jpg 1200w"
-              sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px" src="/resources/img/piquet-big.jpg"
-              class="left" alt="piquet">
+              src="/resources/img/piquet-big.jpg" layout="responsive">
+              <noscript>
+                <img alt="piquet" width="150" height="150"
+                  srcset="/resources/img/piquet-small.jpg 400w, /resources/img/piquet-medium.jpg 700w, /resources/img/piquet-big.jpg 1200w"
+                  sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
+                  src="/resources/img/piquet-big.jpg" />
+              </noscript>
+            </amp-img>
             <h3>Piquets</h3>
             <p>
               Piquets appointés réalisés avec un bois de type acacia ou châtaignée
@@ -223,12 +239,17 @@
           </div>
 
           <div class="item">
-            <!-- TODO img -->
-            <img
+            <amp-img class="img" alt="abatage" width="140" height="140"
               srcset="/resources/img/abatage-small.jpg 400w, /resources/img/abatage-medium.jpg 700w, /resources/img/abatage-big.jpg 1200w"
-              sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px" src="/resources/img/abatage-big.jpg"
-              alt="abatage">
-            <h3>Abatage</h3>
+              src="/resources/img/abatage-big.jpg" layout="responsive">
+              <noscript>
+                <img alt="abatage" width="150" height="150"
+                  srcset="/resources/img/abatage-small.jpg 400w, /resources/img/abatage-medium.jpg 700w, /resources/img/abatage-big.jpg 1200w"
+                  sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
+                  src="/resources/img/abatage-big.jpg" />
+              </noscript>
+            </amp-img>
+            <h3>Abattage</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error hic nostrum unde atque doloremque
               consequuntur sequi maiores non explicabo a! Corrupti itaque minus facere eos consequuntur ea assumenda rem
@@ -238,11 +259,16 @@
           </div>
 
           <div class="item">
-            <!-- TODO img -->
-            <img
+            <amp-img class="img" alt="élagae" width="140" height="140"
               srcset="/resources/img/elagage-small.jpg 400w, /resources/img/elagage-medium.jpg 700w, /resources/img/elagage-big.jpg 1200w"
-              sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px" src="/resources/img/elagage-big.jpg"
-              class="right" alt="élagage">
+              src="/resources/img/elagage-big.jpg" layout="responsive">
+              <noscript>
+                <img alt="élagae" width="150" height="150"
+                  srcset="/resources/img/elagage-small.jpg 400w, /resources/img/elagage-medium.jpg 700w, /resources/img/elagage-big.jpg 1200w"
+                  sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
+                  src="/resources/img/elagage-big.jpg" />
+              </noscript>
+            </amp-img>
             <h3>Élagage</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, rerum neque placeat nisi modi unde rem
@@ -253,11 +279,16 @@
         </div>
         <div class="items go-down">
           <div class="item">
-            <!-- TODO img -->
-            <img
+            <amp-img class="img" alt="bois de cheminée" width="140" height="140"
               srcset="/resources/img/bois-cheminee-small.jpg 400w, /resources/img/bois-cheminee-medium.jpg 700w, /resources/img/bois-cheminee-big.jpg 1200w"
-              sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
-              src="/resources/img/bois-cheminee-big.jpg" class="left" alt="bois de cheminée">
+              src="/resources/img/bois-cheminee-big.jpg" layout="responsive">
+              <noscript>
+                <img alt="bois de cheminée" width="150" height="150"
+                  srcset="/resources/img/bois-cheminee-small.jpg 400w, /resources/img/bois-cheminee-medium.jpg 700w, /resources/img/bois-cheminee-big.jpg 1200w"
+                  sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
+                  src="/resources/img/bois-cheminee-big.jpg" />
+              </noscript>
+            </amp-img>
             <h3>Bois de cheminée</h3>
             <p>
               Piquets appointés réalisés avec un bois de type acacia ou châtaignée
@@ -266,11 +297,16 @@
             <div class="cover"></div>
           </div>
           <div class="item">
-            <!-- TODO img -->
-            <img
+            <amp-img class="img" alt="débardage" width="140" height="140"
               srcset="/resources/img/debardage-small.jpg 400w, /resources/img/debardage-medium.jpg 700w, /resources/img/debardage-big.jpg 1200w"
-              sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px" src="/resources/img/debardage-big.jpg"
-              alt="débardage">
+              src="/resources/img/debardage-big.jpg" layout="responsive">
+              <noscript>
+                <img alt="débardage" width="150" height="150"
+                  srcset="/resources/img/debardage-small.jpg 400w, /resources/img/debardage-medium.jpg 700w, /resources/img/debardage-big.jpg 1200w"
+                  sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
+                  src="/resources/img/debardage-big.jpg" />
+              </noscript>
+            </amp-img>
             <h3>Débardage</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error hic nostrum unde atque doloremque

@@ -19,6 +19,10 @@
 }
 
 @media (max-width: 900px) {
+  .my-description {
+    padding: 0;
+  }
+
   .my-description .main-description {
     height: 100%;
     min-height: 300px;
@@ -55,10 +59,15 @@
   }
 }
 
+@media (max-width: 400px) {
+  .my-description {
+    padding-top: 75px;
+  }
+}
+
 .my-description .me {
   position: relative;
   width: 100%;
-  margin-top: 50px;
   padding: 50px 0;
   display: flex;
   justify-content: center;
@@ -79,6 +88,13 @@
 .my-description .me .right {
   align-items: flex-start;
 }
+
+.my-description .me .left .img,
+.my-description .me .right .img {
+  width: 50%;
+  height: 700px;
+}
+
 
 .my-description .me .left img,
 .my-description .me .right img {
@@ -132,6 +148,11 @@
     width: calc(100% - 100px);
   }
 
+  .my-description .me .left .img,
+  .my-description .me .right .img {
+    width: 75%;
+  }
+
   .my-description .me .left img,
   .my-description .me .right img,
   .my-description .me .description {
@@ -169,16 +190,19 @@
     min-width: 0;
   }
 
+  .my-description .me .left .img,
+  .my-description .me .right .img,
   .my-description .me .left img,
   .my-description .me .right img {
+    min-height: 400px;
     height: 100%;
     width: 100%;
   }
 
-  .my-description .me .right {
+  /* .my-description .me .right {
     margin-top: 200px;
     margin-bottom: 200px;
-  }
+  } */
 
   .my-description .me .cover {
     height: 450px;
@@ -211,6 +235,12 @@
   margin-top: 25px;
 }
 
+.my-description .last-item .img {
+  width: 100%;
+  height: 600px;
+  max-height: 600px;
+}
+
 .my-description .last-item img {
   width: 100%;
   height: 600px;
@@ -232,7 +262,9 @@
     height: 600px;
   }
 
+  .my-description .last-item .img,
   .my-description .last-item img {
+    max-height: 500px;
     height: 500px;
   }
 }
@@ -242,7 +274,9 @@
     height: 500px;
   }
 
+  .my-description .last-item .img,
   .my-description .last-item img {
+    max-height: 400px;
     height: 400px;
   }
 }
@@ -252,7 +286,9 @@
     height: 400px;
   }
 
+  .my-description .last-item .img,
   .my-description .last-item img {
+    max-height: 300px;
     height: 300px;
   }
 }

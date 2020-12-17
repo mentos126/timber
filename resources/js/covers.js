@@ -12,4 +12,4 @@ window.setInterval(function () {
     }
   }
   increment++
-}, 5000)
+}, 3000)
