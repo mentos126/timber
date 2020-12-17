@@ -3,12 +3,18 @@
 *,
 ::after,
 ::before {
-  font-family: Montserrat, sans-serif;
+  font-family: Raleway, 'Open Sans', 'Avenir', Helvetica, Arial, sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Montserrat, 'Open Sans', 'Avenir', Helvetica, Arial, sans-serif;
 }
 
 html {
