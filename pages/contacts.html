@@ -182,11 +182,16 @@
       <h2>Les contacts</h2>
     </section>
     <section class="links">
-      <!-- TODO img -->
-      <img class="img"
+      <amp-img class="img" alt="tronçonneuse" width="100" height="100"
         srcset="/resources/img/tronconneuse-tronc-small.jpg 400w, /resources/img/tronconneuse-tronc-medium.jpg 700w, /resources/img/tronconneuse-tronc-big.jpg 1200w"
-        sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
-        src="/resources/img/tronconneuse-tronc-big.jpg" alt="tronçonneuse">
+        src="/resources/img/tronconneuse-tronc-big.jpg" layout="responsive">
+        <noscript>
+          <img class="img" alt="tronçonneuse" width="100" height="100"
+            srcset="/resources/img/tronconneuse-tronc-small.jpg 400w, /resources/img/tronconneuse-tronc-medium.jpg 700w, /resources/img/tronconneuse-tronc-big.jpg 1200w"
+            sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
+            src="/resources/img/tronconneuse-tronc-big.jpg" />
+        </noscript>
+      </amp-img>
       <div class="contacts">
         <div class="address">
           <h3>Adresse:</h3>
