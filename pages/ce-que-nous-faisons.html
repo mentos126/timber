@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="/resources/css/what-we-do.css" defer>
 
   <title>Timber - Ce que nous faisons</title>
-  
+
   <script async src="/resources/js/amp.js"></script>
   <style amp-boilerplate>
     body {
@@ -177,7 +177,7 @@
           <div class="cover-opacity"></div>
         </div>
         <div class="cover">
-         <!-- TODO img -->
+          <!-- TODO img -->
           <img
             srcset="/resources/img/tronc-non-empiller-small.jpg 400w, /resources/img/tronc-non-empiller-medium.jpg 700w, /resources/img/tronc-non-empiller-big.jpg 1200w"
             sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
@@ -185,11 +185,15 @@
           <div class="cover-opacity"></div>
         </div>
       </div>
-      <!-- TODO img -->
-      <img
+      <amp-img class="logo half" alt="logo" width="140" height="140"
         srcset="/resources/img/chene-small.png 400w, /resources/img/chene-medium.png 700w, /resources/img/chene-big.png 1200w"
-        sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px" src="/resources/img/chene-big.png"
-        class="logo half" alt="logo">
+        src="/resources/img/chene-big.png" layout="responsive">
+        <noscript>
+          <img class="logo half" alt="logo" width="150" height="150"
+            srcset="/resources/img/chene-small.png 400w, /resources/img/chene-medium.png 700w, /resources/img/chene-big.png 1200w"
+            sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px" src="/resources/img/chene-big.png" />
+        </noscript>
+      </amp-img>
     </section>
     <div class="separator"></div>
     <section class="brand">
@@ -205,11 +209,11 @@
       <div class="items-wrapper">
         <div class="items">
           <div class="item">
-      <!-- TODO img -->
+            <!-- TODO img -->
             <img
               srcset="/resources/img/piquet-small.jpg 400w, /resources/img/piquet-medium.jpg 700w, /resources/img/piquet-big.jpg 1200w"
-              sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
-              src="/resources/img/piquet-big.jpg" class="left" alt="piquet">
+              sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px" src="/resources/img/piquet-big.jpg"
+              class="left" alt="piquet">
             <h3>Piquets</h3>
             <p>
               Piquets appointés réalisés avec un bois de type acacia ou châtaignée
@@ -219,11 +223,11 @@
           </div>
 
           <div class="item">
-      <!-- TODO img -->
+            <!-- TODO img -->
             <img
-            srcset="/resources/img/abatage-small.jpg 400w, /resources/img/abatage-medium.jpg 700w, /resources/img/abatage-big.jpg 1200w"
-            sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
-             src="/resources/img/abatage-big.jpg" alt="abatage">
+              srcset="/resources/img/abatage-small.jpg 400w, /resources/img/abatage-medium.jpg 700w, /resources/img/abatage-big.jpg 1200w"
+              sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px" src="/resources/img/abatage-big.jpg"
+              alt="abatage">
             <h3>Abatage</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error hic nostrum unde atque doloremque
@@ -234,11 +238,11 @@
           </div>
 
           <div class="item">
-      <!-- TODO img -->
-            <img 
-            srcset="/resources/img/elagage-small.jpg 400w, /resources/img/elagage-medium.jpg 700w, /resources/img/elagage-big.jpg 1200w"
-            sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
-            src="/resources/img/elagage-big.jpg" class="right" alt="élagage">
+            <!-- TODO img -->
+            <img
+              srcset="/resources/img/elagage-small.jpg 400w, /resources/img/elagage-medium.jpg 700w, /resources/img/elagage-big.jpg 1200w"
+              sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px" src="/resources/img/elagage-big.jpg"
+              class="right" alt="élagage">
             <h3>Élagage</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, rerum neque placeat nisi modi unde rem
@@ -249,12 +253,11 @@
         </div>
         <div class="items go-down">
           <div class="item">
-      <!-- TODO img -->
-            <img 
-            srcset="/resources/img/bois-cheminee-small.jpg 400w, /resources/img/bois-cheminee-medium.jpg 700w, /resources/img/bois-cheminee-big.jpg 1200w"
-            sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
-            src="/resources/img/bois-cheminee-big.jpg" class="left"
-              alt="bois de cheminée">
+            <!-- TODO img -->
+            <img
+              srcset="/resources/img/bois-cheminee-small.jpg 400w, /resources/img/bois-cheminee-medium.jpg 700w, /resources/img/bois-cheminee-big.jpg 1200w"
+              sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
+              src="/resources/img/bois-cheminee-big.jpg" class="left" alt="bois de cheminée">
             <h3>Bois de cheminée</h3>
             <p>
               Piquets appointés réalisés avec un bois de type acacia ou châtaignée
@@ -263,11 +266,11 @@
             <div class="cover"></div>
           </div>
           <div class="item">
-      <!-- TODO img -->
-            <img 
-            srcset="/resources/img/debardage-small.jpg 400w, /resources/img/debardage-medium.jpg 700w, /resources/img/debardage-big.jpg 1200w"
-            sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
-            src="/resources/img/debardage-big.jpg" alt="débardage">
+            <!-- TODO img -->
+            <img
+              srcset="/resources/img/debardage-small.jpg 400w, /resources/img/debardage-medium.jpg 700w, /resources/img/debardage-big.jpg 1200w"
+              sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px" src="/resources/img/debardage-big.jpg"
+              alt="débardage">
             <h3>Débardage</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error hic nostrum unde atque doloremque
@@ -303,11 +306,15 @@
   <footer>
     <div id="footer">
       <div class="company">
-      <!-- TODO img -->
-        <img
+        <amp-img class="logo" alt="logo" width="140" height="140"
           srcset="/resources/img/chene-small.png 400w, /resources/img/chene-medium.png 700w, /resources/img/chene-big.png 1200w"
-          sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px" src="/resources/img/chene-big.png"
-          alt="logo chene" class="logo">
+          src="/resources/img/chene-big.png" layout="responsive">
+          <noscript>
+            <img class="logo" alt="logo" width="150" height="150"
+              srcset="/resources/img/chene-small.png 400w, /resources/img/chene-medium.png 700w, /resources/img/chene-big.png 1200w"
+              sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px" src="/resources/img/chene-big.png" />
+          </noscript>
+        </amp-img>
         <div class="brand">ANTONIO <br>DOS SANTOS MARTINS</div>
       </div>
       <div class="address">
