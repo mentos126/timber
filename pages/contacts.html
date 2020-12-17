@@ -35,6 +35,88 @@
   <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.35.1/mapbox-gl.js"></script>
 
   <title>Timber - Contacts</title>
+
+  <script async src="/resources/js/amp.js"></script>
+  <style amp-boilerplate>
+    body {
+      -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      animation: -amp-start 8s steps(1, end) 0s 1 normal both
+    }
+
+    @-webkit-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @-moz-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @-ms-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @-o-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+  </style>
+  <noscript>
+    <style amp-boilerplate>
+      body {
+        -webkit-animation: none;
+        -moz-animation: none;
+        -ms-animation: none;
+        animation: none
+      }
+    </style>
+  </noscript>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X37ZYZXE5R"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-X37ZYZXE5R');
+  </script>
   
   <!-- TODO script -->
 
@@ -54,11 +136,16 @@
         <div class="burger bar"></div>
       </div>
     </div>
-    <nav id="menu">
-      <img
+    <nav id="menu">      
+      <amp-img class="logo" alt="logo" width="140" height="140"
         srcset="/resources/img/chene-small.png 400w, /resources/img/chene-medium.png 700w, /resources/img/chene-big.png 1200w"
-        sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px" src="/resources/img/chene-big.png"
-        class="logo" alt="logo">
+        src="/resources/img/chene-big.png" layout="responsive">
+        <noscript>
+          <img class="logo" alt="logo" width="150" height="150"
+            srcset="/resources/img/chene-small.png 400w, /resources/img/chene-medium.png 700w, /resources/img/chene-big.png 1200w"
+            sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px" src="/resources/img/chene-big.png" />
+        </noscript>
+      </amp-img>
       <ul class="list">
         <li><a href="/index.html" class="need-loader">ACCUEIL</a></li>
         <li><a href="/pages/qui-sommes-nous.html" class="need-loader">QUI SOMMES NOUS</a></li>
@@ -95,6 +182,7 @@
       <h2>Les contacts</h2>
     </section>
     <section class="links">
+      <!-- TODO img -->
       <img class="img"
         srcset="/resources/img/tronconneuse-tronc-small.jpg 400w, /resources/img/tronconneuse-tronc-medium.jpg 700w, /resources/img/tronconneuse-tronc-big.jpg 1200w"
         sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px"
@@ -127,6 +215,7 @@
   <footer>
     <div id="footer">
       <div class="company">
+      <!-- TODO img -->
         <img
           srcset="/resources/img/chene-small.png 400w, /resources/img/chene-medium.png 700w, /resources/img/chene-big.png 1200w"
           sizes="(max-width: 600px) 400px, (max-width: 900px) 700px, 1200px" src="/resources/img/chene-big.png"

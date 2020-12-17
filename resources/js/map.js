@@ -10,16 +10,7 @@ const myIcon = L.icon({
   shadowSize: [41, 41]
 });
 
-const popup = `
-<a
-  style="color: black; text-decoration: underline;"
-  href="https://www.google.com/maps/dir//44.3959535,2.0565589/@44.3974805,2.0426889,13.96z/data=!4m2!4m1!3e0"
-  target="_blank"
-  rel="noopener noreferrer"
-  >
-  LD. Nieyreval<br>12200 Saint-Rémy
-</a>
-`
+const popup = '<a style="color: black; text-decoration: underline;" href="https://www.google.com/maps/dir//44.3959535,2.0565589/@44.3974805,2.0426889,13.96z/data=!4m2!4m1!3e0" target="_blank" rel="noopener noreferrer">LD. Nieyreval<br>12200 Saint-Rémy</a>'
 
 L.marker([44.396138, 2.056415], {
     icon: myIcon

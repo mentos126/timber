@@ -3,7 +3,7 @@ const coverWrapper = document.querySelector('#main .cover-wrapper')
 const slogan = document.querySelector('#main .slogan')
 const sloganAlt = document.querySelector('#items .slogan-alt')
 
-const resizeHandler = () => {
+const resizeHandler = function () {
   main.classList.remove('min')
   slogan.style.display = 'block'
   sloganAlt.style.display = 'none'

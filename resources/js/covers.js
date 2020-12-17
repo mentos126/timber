@@ -1,8 +1,15 @@
 const covers = document.querySelectorAll('#main .cover')
 const coversSize = covers.length
+let increment = 0
 
 window.setInterval(function () {
-  const time = new Date().getTime()
-  covers[(time - 1) % coversSize].classList.remove('active')
-  covers[(time) % coversSize].classList.add('active')
-}, 4999)
+  for(let i = 0; i < coversSize; i++) {
+    const index = increment % coversSize
+    if (i === index) {
+      covers[i].classList.add('active')
+    } else {
+      covers[i].classList.remove('active')
+    }
+  }
+  increment++
+}, 5000)
