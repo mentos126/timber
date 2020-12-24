@@ -1,3 +1,5 @@
 # robots.txt for https://exploitant-forestier.pagesperso-orange.fr
 
 User-agent: *
+
+Sitemap: https://exploitant-forestier.pagesperso-orange.fr/sitemap.xml
