@@ -2,6 +2,7 @@ const menu = document.querySelector('nav#menu')
 const listMenu = document.querySelector('nav#menu .list')
 const contactMenu = document.querySelector('nav#menu .contact')
 const actionMenu = document.querySelector('#action-menu .burger-menu')
+const hasHalfCover = document.querySelector('#main')
 
 actionMenu.addEventListener('click', function () {
   if (actionMenu.classList.contains('close')) {
@@ -26,7 +27,11 @@ actionMenu.addEventListener('click', function () {
 window.addEventListener('scroll', function () {
   const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
 
-  if (window.scrollY + 50 >= vh) {
+  hasHalfCover.classList.contains('half')
+  if (
+    (hasHalfCover && hasHalfCover.classList.contains('half') && window.scrollY + 50>= 400) ||
+    (window.scrollY + 50 >= vh)
+  ) {
     actionMenu.classList.add('scroll-color')
   } else {
     actionMenu.classList.remove('scroll-color')

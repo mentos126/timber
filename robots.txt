@@ -1,3 +1,3 @@
-# robots.txt for https://antonio-bucheron.pagesperso-orange.fr
+# robots.txt for https://exploitant-forestier.pagesperso-orange.fr
 
 User-agent: *

@@ -9,7 +9,8 @@
   height: 400px;
 }
 
-.what-we-do .main-description * {
+.what-we-do .main-description h3,
+.what-we-do .main-description p {
   position: absolute;
   width: 50%;
   left: 50%;
@@ -28,11 +29,11 @@
 .what-we-do .main-description p {
   font-size: 1.2rem;
   top: 50%;
-  transform: translateY(50%);
-  -webkit-transform: translateY(50%);
-  -moz-transform: translateY(50%);
-  -ms-transform: translateY(50%);
-  -o-transform: translateY(50%);
+  transform: translateY(25px);
+  -webkit-transform: translateY(25px);
+  -moz-transform: translateY(25px);
+  -ms-transform: translateY(25px);
+  -o-transform: translateY(25px);
 }
 
 @media (max-width: 900px) {
