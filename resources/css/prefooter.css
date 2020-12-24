@@ -5,11 +5,12 @@
 
 #prefooter .prefooter-container {
   width: 60%;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
 #prefooter .prefooter-container p {
-  text-align: justify;
+  text-align: center;
   padding: 25px 15px;
 }
 
