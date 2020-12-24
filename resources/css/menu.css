@@ -23,16 +23,19 @@
 }
 
 #action-menu .burger.bar {
-  background: var(--white);
+  /* background: var(--white); */
+  background:  rgb(241, 241, 241);
   border-radius: 5px;
 }
 
 #action-menu .scroll-color .burger.bar {
-  background: var(--jet);
+  /* background: var(--jet); */
+  background:  rgb(52, 51, 48);
 }
 
 #action-menu .open .burger.bar {
-  background: var(--white);
+  /* background: var(--white); */
+  background:  rgb(241, 241, 241);
 }
 
 #action-menu .open .burger:first-child {
@@ -48,7 +51,8 @@
   width: 100%;
   top: 0;
   left: 0;
-  background: var(--menu-hover);
+  /* background: var(--menu-hover); */
+  background:  rgba(0, 0, 0, 0.882);
   opacity: 0;
   z-index: 0;
   transition: all 0.5s ease-in-out .2s;
@@ -73,7 +77,8 @@
   height: 150px;
   border-radius: 50%;
   padding: 5px;
-  background: var(--white);
+  /* background: var(--white); */
+  background:  rgb(241, 241, 241);
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -115,19 +120,23 @@
 
 #menu .list a {
   padding: 0 15px;
-  color: var(--white);
+  /* color: var(--white); */
+  color:  rgb(241, 241, 241);
   line-height: 1.5;
   font-weight: bold;
   font-size: 1.2rem;
 }
 
 #menu .list a.active {
-  color: var(--yellow-orange);
+  /* color: var(--yellow-orange); */
+  color:  rgb(255, 167, 55);
 }
 
 #menu .list a:hover {
-  color: var(--yellow-orange);
-  border: solid 1px var(--white);
+  /* color: var(--yellow-orange); */
+  color:  rgb(255, 167, 55);
+  /* border: solid 1px var(--white); */
+  border: solid 1px rgb(241, 241, 241);
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -142,7 +151,8 @@
   width: 4px;
   height: calc(100vh - 200px);
   border-radius: 5px;
-  background: var(--white);
+  /* background: var(--white); */
+  background:  rgb(241, 241, 241);
 }
 
 #menu .contact {
@@ -151,7 +161,8 @@
   top: 350px;
   left: 50%;
   padding: 30px 15px;
-  color: var(--white);
+  /* color: var(--white); */
+  color:  rgb(241, 241, 241);
   line-height: 1.8;
 }
 
@@ -165,11 +176,13 @@
 }
 
 #menu .contact a {
-  color: var(--white);
+  /* color: var(--white); */
+  color:  rgb(241, 241, 241);
 }
 
 #menu .contact a:hover {
-  color: var(--yellow-orange)
+  /* color: var(--yellow-orange); */
+  color: rgb(255, 167, 55);
 }
 
 @media (max-width: 550px) {

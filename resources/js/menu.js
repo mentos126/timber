@@ -27,10 +27,9 @@ actionMenu.addEventListener('click', function () {
 window.addEventListener('scroll', function () {
   const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
 
-  hasHalfCover.classList.contains('half')
   if (
-    (hasHalfCover && hasHalfCover.classList.contains('half') && window.scrollY + 50>= 400) ||
-    (window.scrollY + 50 >= vh)
+    (window.scrollY + 50 >= vh) ||
+    (hasHalfCover && hasHalfCover.classList.contains('half') && window.scrollY + 50>= 400)
   ) {
     actionMenu.classList.add('scroll-color')
   } else {

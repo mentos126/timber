@@ -5,7 +5,8 @@
   width: 4px;
   height: calc(100vh - 200px);
   border-radius: 5px;
-  background: var(--white);
+  /* background: var(--white); */
+  background:  rgb(241, 241, 241);
 }
 
 #main .scroll {
@@ -13,7 +14,8 @@
   bottom: 120px;
   left: 50%;
   z-index: 2;
-  color: var(--white);
+  /* color: var(--white); */
+  color:  rgb(241, 241, 241);
   font-size: .9rem;
   font-weight: lighter;
   transform: rotate(-90deg) translateY(-25px);
@@ -30,7 +32,8 @@
   width: 50%;
   padding: 0 15px;
   transform: translateX(-100%);
-  color: var(--white);
+  /* color: var(--white); */
+  color:  rgb(241, 241, 241);
 }
 
 #items .slogan-alt {
@@ -46,7 +49,8 @@
 #items .slogan {
   display: flex;
   width: 80%;
-  color: var(--jet);
+  /* color: var(--jet); */
+  color:  rgb(52, 51, 48);
 }
 
 #main .slogan,
@@ -75,7 +79,8 @@
 
 #main .slogan .description-accent,
 #items .slogan-alt .description-accent {
-  color: var(--yellow-orange);
+  /* color: var(--yellow-orange); */
+  color:  rgb(255, 167, 55);
 }
 
 #main.min .separator {

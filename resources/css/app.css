@@ -21,15 +21,16 @@ html {
 }
 
 body {
-  --jet: #343330ff;
-  --rifle-green: #45462aff;
-  --brown: #7e5920ff;
-  --fulvous: #dc851fff;
+  --jet: rgb(52, 51, 48);
+  --rifle-green: rgb(69, 70, 42);
+  --brown: rgb(126, 89, 32);
+  --fulvous: rgb(220, 133, 31);
   --fulvous-transparent: rgba(220, 132, 31, 0.295);
-  --yellow-orange: #ffa737ff;
+  --yellow-orange: rgb(255, 167, 55);
   --yellow-orange-transparent: rgba(255, 168, 55, 0.39);
-  --white: #f1f1f1;
-  --black-hover: #0000009f;
-  --menu-hover: #000000e1;
-  background: var(--white);
+  --white: rgb(241, 241, 241);
+  --black-hover: rgba(0, 0, 0, 0.624);
+  --menu-hover: rgba(0, 0, 0, 0.882);
+  /* background: var(--white); */
+  background: rgb(241, 241, 241);
 }

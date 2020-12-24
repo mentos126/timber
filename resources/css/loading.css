@@ -7,7 +7,8 @@
   width: 100%;
   height: 100%;
   opacity: 0.9;
-  background-color: var(--jet);
+  /* background-color: var(--jet); */
+  background-color:  rgb(52, 51, 48);
 }
 
 #loading .loader {
@@ -19,8 +20,10 @@
   width: 100px;
   border-radius: 50%;
   border: solid transparent 10px;
-  border-top: solid var(--yellow-orange) 10px;
-  border-left: solid var(--yellow-orange) 10px;
+  /* border-top: solid var(--yellow-orange) 10px; */
+  border-top: solid rgb(255, 167, 55) 10px;
+  /* border-left: solid var(--yellow-orange) 10px; */
+  border-left: solid rgb(255, 167, 55) 10px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
@@ -36,8 +39,10 @@
   width: 40px;
   height: 40px;
   border: solid transparent 10px;
-  border-top: solid var(--yellow-orange) 10px;
-  border-left: solid var(--yellow-orange) 10px;
+  /* border-top: solid var(--yellow-orange) 10px; */
+  border-top: solid rgb(255, 167, 55) 10px;
+  /* border-left: solid var(--yellow-orange) 10px; */
+  border-left: solid rgb(255, 167, 55) 10px;
   border-radius: 50%;
   animation: loader3AnimationBefore 1.5s linear infinite;
   -webkit-animation: loader3AnimationBefore 1.5s linear infinite;
@@ -51,8 +56,10 @@
   width: 70px;
   height: 70px;
   border: solid transparent 10px;
-  border-top: solid var(--yellow-orange) 10px;
-  border-left: solid var(--yellow-orange) 10px;
+  /* border-top: solid var(--yellow-orange) 10px; */
+  border-top: solid rgb(255, 167, 55) 10px;
+  /* border-left: solid var(--yellow-orange) 10px; */
+  border-left: solid rgb(255, 167, 55) 10px;
   border-radius: 50%;
   animation: loader3AnimationAfter 1.5s linear infinite;
   -webkit-animation: loader3AnimationAfter 1.5s linear infinite;

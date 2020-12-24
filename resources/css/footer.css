@@ -17,7 +17,8 @@ footer {
 
 #footer {
   width: 100%;
-  background: var(--jet);
+  /* background: var(--jet); */
+  background:  rgb(52, 51, 48);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -37,7 +38,8 @@ footer {
   height: 100px;
   border-radius: 50%;
   padding: 5px;
-  background: var(--white);
+  /* background: var(--white); */
+  background:  rgb(241, 241, 241);
 }
 
 #footer .logo img{
@@ -66,7 +68,8 @@ footer {
 
 #footer .brand {
   width: 205px;
-  color: var(--white);
+  /* color: var(--white); */
+  color:  rgb(241, 241, 241);
   font-size: .9rem;
   font-weight: bold;
   padding: 15px;
@@ -80,13 +83,15 @@ footer {
 #footer .address a,
 #footer .contact a {
   padding: 15px;
-  color: var(--white);
+  /* color: var(--white); */
+  color:  rgb(241, 241, 241);
   font-size: .8rem;
 }
 
 #footer .mail a {
   padding: 15px;
-  color: var(--white);
+  /* color: var(--white); */
+  color:  rgb(241, 241, 241);
   font-size: .8rem;
 }
 

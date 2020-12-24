@@ -4,7 +4,8 @@
   position: absolute;
   top: 150px;
   left: 50%;
-  background: var(--yellow-orange);
+  /* background: var(--yellow-orange); */
+  background:  rgb(255, 167, 55);
   z-index: 1;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
@@ -25,7 +26,8 @@
 
 .brand h2 {
   font-size: 2rem;
-  color: var(--fulvous);
+  /* color: var(--fulvous); */
+  color:  rgb(220, 133, 31);
 }
 
 @media (max-width: 830px) {
@@ -42,32 +44,6 @@
     font-size: 1.5rem;
   }
 }
-
-/* @media (max-width: 650px) {
-  .brand {
-    padding-top: 50px;
-  }
-
-  .separator {
-    height: 370px;
-  }
-
-  .brand h1,
-  .brand h2 {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 470px) {
-  .separator {
-    height: 360px;
-  }
-
-  .brand h1,
-  .brand h2 {
-    font-size: .8rem;
-  }
-} */
 
 @media (max-width: 600px) {
   .separator {

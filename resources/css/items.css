@@ -33,7 +33,8 @@
 }
 
 #items .item .description a {
-  color: var(--yellow-orange);
+  /* color: var(--yellow-orange); */
+  color:  rgb(255, 167, 55);
   text-decoration: underline;
   font-weight: bold;
 }
@@ -43,7 +44,8 @@
   top: 20%;
   width: 75%;
   height: 100%;
-  background: var(--fulvous-transparent);
+  /* background: var(--fulvous-transparent); */
+  background:  rgba(220, 132, 31, 0.295);
 }
 
 #items .item .cover.left {

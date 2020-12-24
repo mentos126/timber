@@ -21,7 +21,8 @@
 
 #prefooter .prefooter-container .show-more a {
   text-decoration: underline;
-  color: var(--yellow-orange);
+  /* color: var(--yellow-orange); */
+  color:  rgb(255, 167, 55);
   font-weight: bold;
 }
 
@@ -31,9 +32,11 @@
 }
 
 #prefooter .prefooter-container .contact a {
-  color: var(--jet);
+  /* color: var(--jet); */
+  color: rgb(52, 51, 48);
   font-weight: bold;
-  border: solid 2px var(--yellow-orange);
+  /* border: solid 2px var(--yellow-orange); */
+  border: solid 2px rgb(255, 167, 55);
   padding: 5px 40px;
 }
 

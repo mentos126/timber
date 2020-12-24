@@ -120,7 +120,8 @@
   height: 800px;
   object-fit: cover;
   object-position: center;
-  border: solid 1px var(--black-hover);
+  /* border: solid 1px var(--black-hover); */
+  border: solid 1px rgba(0, 0, 0, 0.624);
 }
 
 .what-we-do .items-wrapper .items .item img.left {
@@ -148,7 +149,8 @@
 
 .what-we-do .items-wrapper .items .item .cover {
   position: absolute;
-  background: var(--yellow-orange-transparent);
+  /* background: var(--yellow-orange-transparent); */
+  background:   rgba(255, 168, 55, 0.39);
   height: 33%;
   width: 75%;
   top: 60%;
