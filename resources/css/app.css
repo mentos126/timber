@@ -34,3 +34,8 @@ body {
   /* background: var(--white); */
   background: rgb(241, 241, 241);
 }
+
+.balek {
+  visibility: hidden;
+  display: none
+}
